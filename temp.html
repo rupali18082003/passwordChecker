@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tmep</title>
+</head>
+<body>
+	<form>
+		name: <input type="text" id="in" onkeyup="take()">
+	</form>
+	<button id="b">check</button>
+	<script type="text/javascript">
+		const name = document.getElementById('in');
+		const btn = document.getElementById('b');
+
+		// btn.addEventListener('click', function(){
+		// 	const p = name.value;
+		// 	const a = /[a-z]/;
+		// 	if(p.match(a)){
+		// 		console.log(1);
+		// 	}
+
+		// });
+
+		const take = function(){
+			console.log(name.value);
+		}
+
+	</script>
+</body>
+</html>

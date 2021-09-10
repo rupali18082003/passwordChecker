@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Checker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="jsIcon.png">
+</head>
+<body>
+	<div class="container">
+		<form>
+			Enter a password 
+			<div class="flex">
+				<input type="password" id="psw" onkeyup="chck()">
+				<span id="show">password</span>
+				<img src="images/openEye.png" id="eye" height="27" width="35">
+			</div>
+			<p id="strength">Waiting for Password...</p>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
